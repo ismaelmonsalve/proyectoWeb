@@ -1,0 +1,288 @@
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62%;
+
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 10rem;
+}
+
+.navpic{
+    height: 50px;
+    width: 50px;
+    border: 1px;
+    display: flex;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    
+}
+
+
+.nav{
+    display: flex;
+
+    justify-content: space-around;
+    background:#C0392B ;
+    height: 8vh;
+    width: 100%;
+}
+
+.brand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+
+
+
+
+  nav a:hover{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    border: black;
+   
+  }
+
+  .theme-icon {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;     
+}
+
+.sun, .moon {
+    font-size: 24px; 
+    color: rgb(253, 253, 253); 
+ }
+
+
+.principal{
+    background-color: #283747;
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    font-size: xx-large;
+}
+
+
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-bottom: 3,5rem;
+    padding-top: 10rem;
+    
+}
+
+
+
+.featured_item{
+    background-color: #42556a;
+    cursor: pointer;
+    transition: 0.3s;
+    size: 5rem;
+    margin-left: 6rem;
+    margin-bottom: 14rem;
+}
+
+
+.featured_item span{
+    font-size: larger;
+    color: white;
+    
+}
+
+.featured_item:hover{
+    background-color: #728396;
+}
+
+.featured_item:hover span,
+.featured_item:hover img{
+    opacity: 1;
+}
+
+.featured-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    row-gap: 2.5rem;
+    
+    
+}
+
+.info-card{
+   
+   margin: 1%;
+   padding: 2rem 1.5rem 1.5rem;
+  background-color: #728396;
+  color: #2b333d;
+  border-radius: 1rem;
+  grid-template-columns: 228px;
+}
+
+.info-card img{
+    size: 10rem ;
+}
+ 
+
+.featured-title{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0.25rem;
+    font-weight: bolder;
+}
+.featured-subtitle{
+    font-size: 2rem;
+    color: rgb(197, 194, 194);
+    margin-bottom: 0.25rem;
+}
+
+.featured-pic{
+    width: 180px;
+    height:130px ;
+    margin: 2rem 0;
+    transition: 3s;
+}
+.price{
+   font-size: 2rem; 
+}
+.buy{
+    border: none;
+    margin-right:0 ;
+    border-radius: 1rem 0rem 1rem;
+    
+}
+.overcar{
+    background-color: #283747;
+}
+
+.overcar{
+    
+    background-color: #283747;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+     padding-top: 5rem;
+    padding-bottom: 8rem;
+    font-size: xx-large;
+    
+    
+}
+
+.group img{
+    padding-top: 10rem;
+    transform: rotate(270deg);
+}
+
+.map{
+    position: relative;
+    align-self: center;
+    display: inline-block;
+}
+
+.map img{
+    margin-top: 40PX;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+.b1{
+    
+    position: absolute;
+    top: 50%; /* Ajusta esta propiedad para cambiar la posición vertical del botón */
+    left: 50%; /* Ajusta esta propiedad para cambiar la posición horizontal del botón */
+    transform: translate(400%, -15rem); /* Centra el botón */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer;
+}
+.b2{
+    position: absolute;
+    top: 50%; /* Ajusta esta propiedad para cambiar la posición vertical del botón */
+    left: 50%; /* Ajusta esta propiedad para cambiar la posición horizontal del botón */
+    transform: translate(100%, 100%); /* Centra el botón */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer;
+}
+.b3{
+    position: absolute;
+    top: 50%; /* Ajusta esta propiedad para cambiar la posición vertical del botón */
+    left: 50%; /* Ajusta esta propiedad para cambiar la posición horizontal del botón */
+    transform: translate(9rem, -400%); /* Centra el botón */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer;
+}
+
+
+.b4{
+    position: absolute;
+    top: 50%; /* Ajusta esta propiedad para cambiar la posición vertical del botón */
+    left: 50%; /* Ajusta esta propiedad para cambiar la posición horizontal del botón */
+    transform: translate(-10rem, -10rem); /* Centra el botón */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer;
+}
+.b5{
+    position: absolute;
+    top: 50%; /* Ajusta esta propiedad para cambiar la posición vertical del botón */
+    left: 50%; /* Ajusta esta propiedad para cambiar la posición horizontal del botón */
+    transform: translate(-30rem, 10rem); /* Centra el botón */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer;
+}
+.b6{
+    position: absolute;
+    top: 50%; /* Ajusta esta propiedad para cambiar la posición vertical del botón */
+    left: 50%; /* Ajusta esta propiedad para cambiar la posición horizontal del botón */
+    transform: translate(-15rem, -15rem); /* Centra el botón */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del botón */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer;
+}
